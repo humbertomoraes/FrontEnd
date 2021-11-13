@@ -1,0 +1,66 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+/*@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap');
+
+body{
+    background-color: rgb(123, 239, 243);
+}
+
+.cidade{
+    padding: 15px 0px;
+    text-align: center;
+}
+h1{
+    color: yellow;
+    border-block-start-color: black;
+    /*font-family: roboto, sans-serif;*/
+    font-family: Merriweather:ital,wght, sans-serif;
+}
+
+iframe{
+    position: absolute;
+    top: 200px;
+    left: center;
+
+}
+
+.resumo{
+    color: white;
+    position: absolute;
+    top: 80px;
+}
+.foto{
+    height: 1400px;
+    background-image: url('/Chackpoint_1/Img/ponte.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.ponte{
+    color: white;
+    background-color: #e6bd09;
+    padding: 0px;
+}
+
+
+
+h2{
+    color: steelblue;
+}
+
+p{
+    color: #bdbdbd;
+    font-family: roboto, sans-serif;
+}
+
+a{
+    color: yellow;
+}

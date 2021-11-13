@@ -1,19 +1,68 @@
-.banner{
-    background-image: url('https://picsum.photos/id/1/1280/720');
-    height: 200px;
-    width: 1400px;
-    text-align: center;
-    color: rgb(76, 0, 255);
-    padding: 300px 0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
+.umA{
+    background-color: rgb(247, 232, 22);
+    border-color: rgb(0, 6, 10);
+    border-style: groove;
+    height: 150px; /*altura*/
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
-button{
-    height: 50px;
-    width: 100px;
-    border-radius: 10px;
-    background-color: aqua;
-    color: rgb(71, 7, 7);
+.um{
+    background-color: chocolate;
+    height: 40px; /*altura*/
+    width: 80px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    top: 40px;
+    left: 36px;
+}
+
+.doisA{
+    background-color: rgb(247, 232, 22);
+    border-color: rgb(0, 6, 10);
+    border-style: groove;
+    height: 150px; /*altura*/
+    width: 150px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+
+.dois{
+    background-color: chocolate;
+    height: 40px; /*altura*/
+    width: 80px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    top: 40px;
+    right: 36px;
+}
+
+
+.tresA{
+    background-color: rgb(247, 232, 22);
+    border-color: rgb(0, 6, 10);
+    border-style: groove;
+    height: 150px; /*altura*/
+    width: 150px;
+    position: absolute;
+    bottom: 0px;
+    background-position: center;
+}
+
+
+.tres{
+    background-color: chocolate;
+    height: 40px; /*altura*/
+    width: 80px;
+    text-align: center;
+    padding-top: 30px;
+    position: absolute;
+    top: 40px;
+    background-position: center;
 }
