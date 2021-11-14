@@ -14,7 +14,7 @@ body{
 
 .foto{
     height: 1400px;
-    background-image: url('https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.melhoresdestinos.com.br%2Fwp-content%2Fuploads%2F2019%2F02%2Fpassagens-aereas-florianopolis-capa2019-01-820x430.jpg&imgrefurl=https%3A%2F%2Fwww.melhoresdestinos.com.br%2Fo-que-fazer-em-florianopolis-floripa.html&tbnid=zyC5vy-lSCIQGM&vet=12ahUKEwjus8mR7Jb0AhULOLkGHWGWCjUQMygWegUIARD3AQ..i&docid=zongs41EFIO2_M&w=820&h=430&itg=1&q=florianopolis&ved=2ahUKEwjus8mR7Jb0AhULOLkGHWGWCjUQMygWegUIARD3AQ');
+    background-image: url('/Chackpoint_1/Img/ponte.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +84,7 @@ li{
     position: absolute;
     height: 60px;
     width: 60px;
-    left: 600px;
+    left: 640px;
     border-radius: 30%;
 }
   
@@ -92,7 +92,7 @@ li{
     position: absolute;
     height: 60px;
     width: 60px;
-    left: 700px;
+    left: 740px;
     border-radius: 30%;
 }
   
@@ -101,7 +101,7 @@ li{
     position: absolute;
     height: 60px;
     width: 60px;
-    left: 800px;
+    left: 830px;
     border-radius: 30%;
 }
   
