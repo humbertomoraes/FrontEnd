@@ -9,32 +9,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;1,700&display=swap');
 
 body{
-    background-color: rgb(123, 239, 243);
+    background-color: rgb(12, 32, 143);
 }
 
-.cidade{
-    padding: 15px 0px;
-    text-align: center;
-}
-h1{
-    color: yellow;
-    border-block-start-color: black;
-    /*font-family: roboto, sans-serif;*/
-    font-family: Merriweather:ital,wght, sans-serif;
-}
-
-iframe{
-    position: absolute;
-    top: 200px;
-    left: center;
-
-}
-
-.resumo{
-    color: white;
-    position: absolute;
-    top: 80px;
-}
 .foto{
     height: 1400px;
     background-image: url('/Chackpoint_1/Img/ponte.jpg');
@@ -44,23 +21,87 @@ iframe{
     background-attachment: fixed;
 }
 
+.cidade{
+    padding: 15px 0px;
+    text-align: center;
+}
+h1{
+    color: rgb(125, 228, 241);
+    border-block-start-color: black;
+    /*font-family: roboto, sans-serif;*/
+    font-family: Merriweather:ital,wght, sans-serif;
+}
+
+.resumo{
+    color: white;
+    position: absolute;
+    top: 80px;
+    text-align: center;
+    left: 200px;
+    right: 200px;
+    font-size: 20px;
+}
+
+iframe{
+    position: absolute;
+    top: 200px;
+    left: center;
+
+}
+
+
 .ponte{
     color: white;
     background-color: #e6bd09;
     padding: 0px;
+    margin-top: ;
 }
-
 
 
 h2{
-    color: steelblue;
+    font-size: 50px;
+    text-align: center;
+}
+.curiosidade{
+    background-color: rgba(17, 86, 88, 0.4);
+    border-radius: 5%;
+    position: absolute;
+    color: whitesmoke;
+    top: 1000px;
+    left: 500px;
 }
 
-p{
-    color: #bdbdbd;
-    font-family: roboto, sans-serif;
+li{
+    list-style: none;
+    text-align: center;
 }
 
-a{
-    color: yellow;
+#rodape{
+    position: absolute;
+    top: 1400px;
 }
+.insta{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 600px;
+    border-radius: 30%;
+}
+  
+.youtube{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 700px;
+    border-radius: 30%;
+}
+  
+  
+.facebook{
+    position: absolute;
+    height: 60px;
+    width: 60px;
+    left: 800px;
+    border-radius: 30%;
+}
+  
