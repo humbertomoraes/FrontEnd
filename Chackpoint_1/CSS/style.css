@@ -25,11 +25,12 @@ body{
     padding: 15px 0px;
     text-align: center;
 }
+
 h1{
     color: rgb(125, 228, 241);
     border-block-start-color: black;
     /*font-family: roboto, sans-serif;*/
-    font-family: Merriweather:ital,wght, sans-serif;
+    font-family: Merriweather, sans-serif;
 }
 
 .resumo{
