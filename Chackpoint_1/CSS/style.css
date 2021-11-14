@@ -14,7 +14,7 @@ body{
 
 .foto{
     height: 1400px;
-    background-image: url('/Chackpoint_1/Img/ponte.jpg');
+    background-image: url('../Chackpoint_1/Img/ponte.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
