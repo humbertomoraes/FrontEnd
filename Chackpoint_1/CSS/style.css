@@ -34,7 +34,7 @@ h1{
 
 .resumo{
     color: white;
-    position: auto;
+    position: absolute;
     top: 80px;
     text-align: center;
     left: 200px;
@@ -43,7 +43,7 @@ h1{
 }
 
 iframe{
-    position: auto;
+    position: absolute;
     top: 200px;
     left: center;
 
@@ -65,7 +65,7 @@ h2{
 .curiosidade{
     background-color: rgba(17, 86, 88, 0.4);
     border-radius: 5%;
-    position: auto;
+    position: absolute;
     color: whitesmoke;
     top: 1000px;
     left: 500px;
@@ -77,11 +77,11 @@ li{
 }
 
 #rodape{
-    position: auto;
+    position: absolute;
     top: 1400px;
 }
 .insta{
-    position: auto;
+    position: absolute;
     height: 60px;
     width: 60px;
     left: 640px;
@@ -89,7 +89,7 @@ li{
 }
   
 .youtube{
-    position: auto;
+    position: absolute;
     height: 60px;
     width: 60px;
     left: 740px;
@@ -98,7 +98,7 @@ li{
   
   
 .facebook{
-    position: auto;
+    position: absolute;
     height: 60px;
     width: 60px;
     left: 830px;
