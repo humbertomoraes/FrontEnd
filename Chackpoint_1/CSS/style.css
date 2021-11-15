@@ -13,12 +13,10 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    width: auto;
 }
 
 .foto{
     height: 1400px;
-    width: auto;
     background-image: url("../Img/ponte.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -44,8 +42,8 @@ h1{
     position: absolute;
     top: 80px;
     text-align: center;
-    left: 200px;
-    right: 200px;
+    left: auto;
+    right: auto;
     font-size: 20px;
 }
 
