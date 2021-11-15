@@ -46,12 +46,8 @@ h1{
 }
 
 iframe{
-    position: absolute;
+    position: auto;
     top: 200px;
-    width: 1200px; 
-    height: 720px;
-    text-align: center;
-    max-resolution: auto;
 }
 
 
