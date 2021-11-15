@@ -10,6 +10,9 @@
 
 body{
     background-color: rgb(12, 32, 143);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .foto{
@@ -44,7 +47,7 @@ h1{
 
 iframe{
     position: absolute;
-    top: 280px;
+    top: 230px;
     width: 1200px; 
     height: 720px;
     text-align: center;
