@@ -42,7 +42,8 @@ h1{
     top: 80px;
     text-align: center;
     font-size: 20px;
-    max-resolution: auto;
+    left: 150px;
+    right: 150px;
 }
 
 iframe{
