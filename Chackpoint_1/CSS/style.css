@@ -10,12 +10,13 @@
 
 body{
     background-color: rgb(12, 32, 143);
+    background-position: left;
 }
 
 .foto{
     height: 1400px;
     background-image: url("../Img/ponte.jpg");
-    background-position: left;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
