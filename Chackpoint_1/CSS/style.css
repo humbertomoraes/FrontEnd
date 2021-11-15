@@ -27,6 +27,7 @@ body{
 .cidade{
     padding: 15px 0px;
     text-align: center;
+    max-resolution: auto;
 }
 
 h1{
@@ -34,6 +35,7 @@ h1{
     border-block-start-color: black;
     /*font-family: roboto, sans-serif;*/
     font-family: Merriweather, sans-serif;
+    max-resolution: auto;
 }
 
 .resumo{
@@ -61,12 +63,14 @@ iframe{
     color: white;
     background-color: #e6bd09;
     padding: 0px;
+    max-resolution: auto;
 }
 
 
 h2{
     font-size: 50px;
     text-align: center;
+    max-resolution: auto;
 }
 .curiosidade{
     background-color: rgba(17, 86, 88, 0.4);
@@ -75,6 +79,7 @@ h2{
     color: whitesmoke;
     top: 1050px;
     left: 500px;
+    max-resolution: auto;
 }
 
 li{
