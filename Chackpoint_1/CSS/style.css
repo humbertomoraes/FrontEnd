@@ -47,7 +47,7 @@ h1{
 
 iframe{
     position: absolute;
-    top: 230px;
+    top: 200px;
     width: 1200px; 
     height: 720px;
     text-align: center;
@@ -71,7 +71,7 @@ h2{
     border-radius: 5%;
     position: absolute;
     color: whitesmoke;
-    top: 1050px;
+    top: 1000px;
     left: 500px;
 }
 
