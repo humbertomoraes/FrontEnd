@@ -48,6 +48,8 @@ h1{
 iframe{
     position: absolute;
     top: 230px;
+    text-align: center;
+    max-resolution: auto;
 }
 
 
