@@ -34,7 +34,6 @@ h1{
     border-block-start-color: black;
     /*font-family: roboto, sans-serif;*/
     font-family: Merriweather, sans-serif;
-    font-size: auto;
 }
 
 .resumo{
@@ -42,8 +41,8 @@ h1{
     position: absolute;
     top: 80px;
     text-align: center;
-    left: auto;
-    right: auto;
+    left: 200px;
+    right: 200px;
     font-size: 20px;
 }
 
@@ -51,7 +50,6 @@ iframe{
     position: absolute;
     top: 200px;
     left: center;
-    font-size: auto;
 
 }
 
