@@ -5,8 +5,8 @@
 
 body {
     background-color: rgb(12, 32, 143);
-    /*width: 100%;
-    height: 100vh;*/
+    width: 100%;
+    height: 100vh;
     display: grid;
 }
 
@@ -38,8 +38,12 @@ li {
 
 .main {
     grid-area: main;
+    text-align: justify;
+    color: bisque;
 }
 
 .footer {
     grid-area: footer;
+    width: 10%;
+    height: 10%;
 }
