@@ -1,23 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
-
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-
 * {
     padding: 0px;
     margin: 0px;
 }
 
-body{
+body {
     background-color: rgb(12, 32, 143);
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 
-
-.foto{
+.foto {
     height: 1400px;
     background-image: url("../Img/ponte.jpg");
     background-position: center;
@@ -26,19 +22,19 @@ body{
     background-attachment: fixed;
 }
 
-.cidade{
+.cidade {
     padding: 15px 0px;
     text-align: center;
 }
 
-h1{
+h1 {
     color: rgb(125, 228, 241);
     border-block-start-color: black;
     font-family: 'Merriweather', sans-serif;
     font-size: 40px;
 }
 
-.resumo{
+.resumo {
     color: white;
     position: absolute;
     top: 140px;
@@ -49,26 +45,25 @@ h1{
     font-family: 'Roboto', sans-serif;
 }
 
-iframe{
+iframe {
     position: absolute;
     top: 240px;
     text-align: center;
 }
 
-.ponte{
+.ponte {
     color: white;
     background-color: #e6bd09;
     padding: 0px;
 }
 
-
-h2{
+h2 {
     font-size: 50px;
     text-align: center;
     font-family: 'Special Elite', cursive;
 }
 
-.curiosidade{
+.curiosidade {
     background-color: rgba(17, 86, 88, 0.4);
     border-radius: 5%;
     position: absolute;
@@ -77,36 +72,36 @@ h2{
     left: 500px;
 }
 
-li{
+li {
     list-style: none;
     text-align: center;
 }
 
-#rodape{
+#rodape {
     position: absolute;
     top: 1450px;
 }
 
-.insta{
+.insta {
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 40%;
+    width: 10%;
     left: 640px;
     border-radius: 30%;
 }
 
-.youtube{
+.youtube {
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 10%;
+    width: 10%;
     left: 740px;
     border-radius: 30%;
 }
 
-.facebook{
+.facebook {
     position: absolute;
-    height: 60px;
-    width: 60px;
+    height: 10%;
+    width: 10%;
     left: 830px;
     border-radius: 30%;
 }
