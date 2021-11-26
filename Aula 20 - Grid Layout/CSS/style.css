@@ -1,6 +1,6 @@
 * {
-    padding: 0px;
-    margin: 0px;
+    padding: 0;
+    margin: 0;
 }
 
 body {
@@ -18,6 +18,18 @@ body {
     grid-template-rows: 20% 1fr 20%;
     grid-template-areas: "header header" "aside main" "footer footer";
     gap: 10px
+}
+
+.bandeira {
+    float: left;
+    margin: 1% 2% 0% 30%;
+    height: 10%;
+    width: 6%;
+}
+
+.cabeçalho {
+    float: left;
+    margin-top: 1%;
 }
 
 .header {
@@ -38,7 +50,7 @@ body {
 li {
     list-style: none;
     text-align: left;
-    margin-top: 20px;
+    margin-top: 10%;
     margin-left: 5%;
 }
 
@@ -65,26 +77,25 @@ p {
 footer {
     grid-area: footer;
     text-align: center;
-    margin: 0 60px;
 }
 
 .facebook {
     height: 39.5%;
     width: 4.4%;
     border-radius: 30%;
-    margin: 0 20px;
+    margin: 0 1%;
 }
 
 .insta {
     height: 40%;
     width: 4.5%;
     border-radius: 30%;
-    margin: 0 20px;
+    margin: 0 1%;
 }
 
 .tube {
     height: 40%;
     width: 4.5%;
     border-radius: 30%;
-    margin: 0 20px;
+    margin: 0 1%;
 }
