@@ -16,7 +16,7 @@ body {
     display: grid;
     grid-template-columns: 20% 1fr;
     grid-template-rows: 20% 1fr 20%;
-    grid-template-areas: "header header" "aside main" "footer footer";
+    grid-template-areas: "header header" "aside main" "rodape rodape";
 }
 
 .header {
@@ -48,8 +48,27 @@ li {
     height: 100vh;
 }
 
-.footer {
-    grid-area: footer;
-    width: 100%;
-    height: 100vh;
+#rodape {
+    grid-area: rodape;
+    text-align: center;
+    text-align: center;
+    gap: 20px;
+}
+
+.facebook {
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+}
+
+.insta {
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
+}
+
+.tube {
+    height: 60px;
+    width: 60px;
+    border-radius: 30%;
 }
