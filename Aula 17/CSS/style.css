@@ -1,0 +1,17 @@
+.bola{
+    background-color: rgb(117, 198, 245);
+    height: 150px; /*altura*/
+    width: 150px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-radius: 50%;
+    animation: fantasma 3s infinite;
+}
+
+@keyframes fantasma{
+    0% {opacity: 0%;}
+    50%{opacity: 50%; }
+    100%{opacity: 100%;transform: translatex(400px)}
+}
+

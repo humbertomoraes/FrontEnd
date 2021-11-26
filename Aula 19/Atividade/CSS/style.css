@@ -1,0 +1,77 @@
+        * {
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        border: 0;
+    }
+    
+    body {
+        background-color: black;
+    }
+    
+    h1 {
+        color: yellow;
+        margin: 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        animation: fantasma 1.5s infinite;
+    }
+    
+    h2 {
+        color: blanchedalmond;
+        text-align: left;
+    }
+    
+    p {
+        color: rgba(221, 221, 236, 50%);
+    }
+    
+    h2:hover {
+        transform: scale(1.1);
+        background-color: rgb(110, 84, 81);
+    }
+    
+    img {
+        width: 350px;
+        height: 450px;
+    }
+    
+    img:hover {
+        transform: scale(1.1);
+        background-color: rgb(110, 84, 81);
+    }
+    
+    @keyframes fantasma {
+        0% {
+            opacity: 15%;
+        }
+        50% {
+            opacity: 50%;
+        }
+        100% {
+            opacity: 100%;
+        }
+    }
+    
+    .filmes {
+        width: 1400px;
+        height: 1200px;
+        text-align: center;
+        margin: 3% auto;
+        border: 1px solid #ccc;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: center;
+        gap: 65px;
+        /* Main axis e cross axis */
+        .tituloContainer {
+            margin: 10px;
+            padding: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
