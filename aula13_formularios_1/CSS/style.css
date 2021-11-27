@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: cadetblue;
+    background-image: "https://www.pngkey.com/png/detail/274-2742185_destination-dev-algorithms-logo.png";
+}
+
+.cabeçalho {
+    background-color: rgb(105, 125, 238);
+    margin-left: 0;
+}
+
+.logo {
+    height: 10%;
+    width: 10%;
+    float: left;
+    margin-left: 30%;
+    padding: 15px;
+    border-radius: 35%;
+}
+
+#empresa {
+    padding: 40px;
+}
+
+.formu {
+    text-align: center;
+    padding: 3%;
+}
+
+div {
+    margin-left: 20%;
+}
+
+.form1 {
+    border: darkblue 2px solid;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+}
+
+.nome {
+    width: 300px;
+    height: 20px;
+}
+
+.representante {
+    width: 300px;
+    height: 20px;
+    margin-top: 3%;
+}
+
+#email {
+    width: 300px;
+    height: 20px;
+    margin-top: 3%;
+    margin-left: 1.2%;
+}
+
+#fone {
+    width: 200px;
+    height: 20px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: .1%;
+}
+
+.sel1 {
+    margin-left: -10%;
+}
+
+.sel2 {
+    margin-left: 5%;
+}

@@ -1,16 +1,88 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Meu primeiro formulário</title>
+    <link rel="stylesheet" href="../aula13_formularios_1/CSS/style.css">
 </head>
+
 <body>
-    
+
+    <div class="cabeçalho">
+        <img class="logo" src="https://www.pngkey.com/png/detail/274-2742185_destination-dev-algorithms-logo.png" alt="logo">
+        <h1 id="empresa">Moraes desenvolvimentos</h1>
+    </div>
+
+    <h1 class="formu">Preencha o formulário abaixo para entrarmos em contato</h1>
+
+    <form id="formulario" action="registro" name="Cadastro de leads" method="post">
+
+        <fieldset class="form1" form="Cadastro de leads">
+            <!--fieldset cria um conjunto de campos-->
+            <legend>Dados da empresa</legend>
+            <!--legend define uma legenda para o conjunto/bloco de campos-->
+
+            <div>
+                <!--div cria blocos-->
+                <label for="nome">Empresa: </id-></label>
+                <!--label define o nome anterior ao input/caixa-->
+                <input class="nome" type="text" name="nome" placeholder="   Insira o nome de sua empresa">
+                <!--placeholder coloca um texto provisório dentro da caixa de input-->
+            </div>
+
+            <div>
+                <!--div cria blocos-->
+                <label for="representante">Contato : </id-></label>
+                <!--label define o nome anterior ao input/caixa-->
+                <input class="representante" type="text" name="nome" placeholder="   Insira o nome da pessoa para contato">
+                <!--placeholder coloca um texto provisório dentro da caixa de input-->
+            </div>
+            <div>
+                <label for="email">E-mail  :</id-></label>
+                <input id="email" type="email" name="e-mail" placeholder="   Insira seu e-mail">
+            </div>
+
+            <div>
+                <label for="fone">Telefone: </id-></label>
+                <input id="fone" type="number" name="telefone" placeholder="   telefone ou celular com DDD">
+            </div>
 
 
+            <div>
+
+                <label class="sel1" for="tipo_serviço">Serviço:</label>
+                <select name="tipo_serviço" id="tipo_serviço">
+                    <option value="0">Selecione o serviço</option>
+                    <option value="1">Site</option>
+                    <option value="2">Software</option>
+                </select>
+
+                <label class="sel2" for="negocio">Ramo Atividade:</label>
+                <select name="negocio" id="negocio">
+                    <option value="0">informe o ramo do seu negócio</option>
+                    <option value="1">Contabilidade</option>
+                    <option value="2">Imobiliária</option>
+                    <option value="3">Hoteis ou pousadas</option>
+                    <option value="4">Restaurante</option>
+                    <option value="5">Prestação de serviços</option>
+                    <option value="6">Outros</option>
+                </select>
+
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            class="form2" form="opções de desenvolvimento">
+
+        </fieldset>
+
+    </form>
 
 
 </body>
+
 </html>

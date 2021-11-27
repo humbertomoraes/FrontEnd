@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(https://picsum.photos/1000/1000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+}
+
+.navbar {
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    position: fixed;
+    top: 0px;
+    text-align: center;
+}
+
+#principal {
+    text-align: center;
+}
+
+.primeira {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+    background-image: url("https://www.oficinadanet.com.br/imagens/post/28776/melhores-filmes.jpg");
+    margin-left: 100px;
+}
+
+.segunda {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    background-image: url("data:image/jpeg;base64,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");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+    right: 0px;
+    margin-left: 450px;
+}
+
+.terceira {
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+    margin-top: -300px;
+    background-image: url("https://cdn.acritica.net/img/pc/450/300/dn_noticia/2020/05/1589729050.jpeg");
+    background-position: 50%;
+    margin-left: 800px;
+}
+
+button {
+    width: 150px;
+    height: 30px;
+    border: 3px solid red;
+    border-radius: 15px;
+    background-color: red;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 260px;
+}
+
+a :hover {
+    background-color: green;
+    border: 3px solid green;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    color: blanchedalmond;
+}
+
+img {
+    margin-right: 20px;
+}
+
+.redes-sociais {
+    margin-top: 200px;
+    text-align: center;
+    background: rgba(3, 3, 3, 0.521);
+    padding: 20px;
+    width: 80%;
+    margin-left: 100px;
+}
+
+footer {
+    width: 100%;
+    height: 60px;
+    background-color: brown;
+    text-align: center;
+    color: rgb(122, 111, 95);
+    padding: 30ox;
+    position: fixed;
+    bottom: 0px;
+}
+
+h3 {
+    color: blanchedalmond;
+    padding: 15px;
+    text-align: center;
+}
