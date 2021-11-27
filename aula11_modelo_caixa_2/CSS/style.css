@@ -1,68 +1,79 @@
-.umA{
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 1200px;
+}
+
+.um {
     background-color: rgb(247, 232, 22);
     border-color: rgb(0, 6, 10);
     border-style: groove;
-    height: 150px; /*altura*/
+    height: 150px;
+    /*altura*/
     width: 150px;
     position: absolute;
     left: 0px;
     top: 0px;
 }
 
-.um{
+.umA {
     background-color: chocolate;
-    height: 40px; /*altura*/
+    height: 80px;
+    /*altura*/
     width: 80px;
     text-align: center;
-    padding-top: 30px;
-    position: absolute;
-    top: 40px;
-    left: 36px;
+    position: relative;
+    margin: 22%;
 }
 
-.doisA{
+p {
+    padding: 25px 0;
+}
+
+.dois {
     background-color: rgb(247, 232, 22);
     border-color: rgb(0, 6, 10);
     border-style: groove;
-    height: 150px; /*altura*/
+    height: 150px;
+    /*altura*/
     width: 150px;
-    position: absolute;
-    right: 0px;
-    top: 0px;
+    position: relative;
+    float: right;
 }
 
-
-.dois{
+.doisA {
     background-color: chocolate;
-    height: 40px; /*altura*/
+    height: 80px;
+    /*altura*/
     width: 80px;
     text-align: center;
-    padding-top: 30px;
-    position: absolute;
-    top: 40px;
-    right: 36px;
+    position: relative;
+    margin: 25%;
 }
 
-
-.tresA{
+.tres {
     background-color: rgb(247, 232, 22);
     border-color: rgb(0, 6, 10);
     border-style: groove;
-    height: 150px; /*altura*/
+    height: 150px;
+    /*altura*/
     width: 150px;
-    position: absolute;
-    bottom: 0px;
-    background-position: center;
+    position: fixed;
+    margin-top: 600px;
+    margin-left: 44%;
 }
 
-
-.tres{
+.tresA {
     background-color: chocolate;
-    height: 40px; /*altura*/
+    height: 80px;
+    /*altura*/
     width: 80px;
     text-align: center;
-    padding-top: 30px;
-    position: absolute;
-    top: 40px;
-    background-position: center;
+    position: relative;
+    margin: 25%;
 }
