@@ -1,18 +1,27 @@
-.banner{
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
     background-image: url('https://picsum.photos/id/1/1280/720');
-    height: 200px;
-    width: 1400px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100vfx;
+}
+
+.banner {
     text-align: center;
     color: rgb(76, 0, 255);
     padding: 300px 0px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;    
 }
 
-button{
+button {
     height: 50px;
     width: 100px;
+    margin-top: 50px;
     border-radius: 10px;
     background-color: aqua;
     color: rgb(71, 7, 7);
