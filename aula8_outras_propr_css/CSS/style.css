@@ -1,15 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
-
-body{
+body {
     background-color: #131313;
 }
 
-h1{
+h1 {
     color: white;
     font-family: roboto, sans-serif;
 }
 
-.media-picture{
+.media-picture {
     height: 400px;
     background-image: url('https://ummetroemeiodelivros.com/wp-content/uploads/2018/03/capaTXT_panteraNegra.png');
     background-position: center;
@@ -17,21 +16,21 @@ h1{
     background-size: cover;
 }
 
-.review-score{
+.review-score {
     color: white;
     background-color: #e6bd09;
     padding: 12px;
 }
 
-h2{
+h2 {
     color: steelblue;
 }
 
-p{
+p {
     color: #bdbdbd;
     font-family: roboto, sans-serif;
 }
 
-a{
+a {
     color: yellow;
 }
