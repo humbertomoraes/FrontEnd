@@ -17,7 +17,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 20% 1fr;
-    grid-template-rows: 20% 1fr 20%;
+    grid-template-rows: 10% 1fr 10%;
     grid-template-areas: "header header" "aside main" "footer footer";
     gap: 10px
 }

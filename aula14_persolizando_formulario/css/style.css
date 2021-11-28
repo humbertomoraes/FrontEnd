@@ -77,3 +77,10 @@ div {
 .sel2 {
     margin-left: 5%;
 }
+
+.form2 {
+    border: darkblue 2px solid;
+    width: 50%;
+    margin-left: 25%;
+    padding: 1%;
+}
