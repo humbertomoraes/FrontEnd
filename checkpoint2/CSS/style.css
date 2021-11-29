@@ -132,8 +132,8 @@ li {
     background-color: rgba(17, 86, 88, 0.4);
     margin-left: 29%;
     height: 60vh;
-    display: inline-flex;
-    width: 45%
+    width: 45%;
+    display: flex;
 }
 
 .form1 {
@@ -169,6 +169,7 @@ input[type=number]:hover {
     font-size: 15px;
     background-color: chartreuse;
     padding: 15px;
+    min-width: 40%;
 }
 
 input[type=date]:hover {
@@ -176,7 +177,7 @@ input[type=date]:hover {
     font-size: 17px;
     background-color: chartreuse;
     padding: 20px;
-    width: 600px;
+    min-width: 30%;
 }
 
 #email {
