@@ -79,29 +79,29 @@ li {
 
 #rodape {
     position: absolute;
-    top: 1450px;
+    bottom: -102%;
+    text-align: center;
 }
 
 .insta {
-    position: absolute;
-    height: 40%;
-    width: 10%;
+    height: 4%;
+    width: 4%;
     left: 640px;
     border-radius: 30%;
+    margin-right: 2%;
 }
 
 .youtube {
-    position: absolute;
-    height: 10%;
-    width: 10%;
+    height: 4%;
+    width: 4%;
     left: 740px;
     border-radius: 30%;
+    margin-right: 2%;
 }
 
 .facebook {
-    position: absolute;
-    height: 10%;
-    width: 10%;
+    height: 4%;
+    width: 4%;
     left: 830px;
     border-radius: 30%;
 }

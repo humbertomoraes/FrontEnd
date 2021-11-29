@@ -51,24 +51,112 @@
 
         <div class="prefeitura"></div>
 
+
+
+        <form id="formulario" action="registro" name="Cadastro" method="post">
+
+            <fieldset class="form1" form="Cadastro">
+                <!--fieldset cria um conjunto de campos-->
+                <legend>Cadastro</legend>
+                <!--legend define uma legenda para o conjunto/bloco de campos-->
+
+                <div>
+                    <!--div cria blocos-->
+                    <label for="nome">Nome: </id-></label>
+                    <!--label define o nome anterior ao input/caixa-->
+                    <input class="nome" type="text" required name="nome" placeholder="   Escreva se nome" min="1" max="100">
+                    <!--placeholder coloca um texto provisório dentro da caixa de input-->
+
+                </div>
+
+                <div>
+                    <label for="email">E-mail  :</id-></label>
+                    <input id="email" type="email" required name="e-mail" placeholder="   Insira seu e-mail">
+                </div>
+
+                <div>
+                    <label for="fone">Telefone: </id-></label>
+                    <input id="fone" type="number" required name="telefone" placeholder="   telefone ou celular com DDD">
+                </div>
+
+
+                <div>
+                    <label for="dataNasc">Data Nascimento: </id-></label>
+                    <input class="dn" id="dn" type="date" required name="dataNasc" max=".toLocaleDateString()">
+                </div>
+
+
+                <fieldset class="maioridade" form="Cadastro">
+                    <legend>Maioridade:</legend>
+                    <div>
+                        <label for="maioridade">Você tem mais de 18 anos? </label>
+                        <label for="maioridade">Sim </label>
+                        <input class="maior" type="radio" name="maioridade" value="Sim" checked>
+
+                        <label for="maioridade">Não </label>
+                        <input type="radio" name="maioridade" value="Não">
+
+
+                    </div>
+                </fieldset>
+
+
+                <div>
+
+                    <label class="sel1 " for="pontoInteresse ">Interesses:</label>
+                    <select name="Ponto_Interesse " id="pontoInteresse ">
+                        <option value="0 ">Selecione uma opção</option>
+                        <option value="1 ">Praias</option>
+                        <option value="2 ">Pontos turísticos</option>
+                        <option value="3 ">Festas</option>
+                        <option value="4 ">Universidades</option>
+                        <option value="5 ">Empregos</option>
+                    </select>
+
+
+                    <fieldset class="interesses" form="Cadastro">
+                        <legend>Pontos de interesse:</legend>
+                        <div>
+                            <input type="checkbox" id="opções " name="Opções " value="Praias ">
+                            <label for="opções"> Praias </label>
+                            <input type="checkbox" id="opções " name="Opções " value="Restaurantes ">
+                            <label for="opções"> Restaurantes </label>
+                            <input type="checkbox" id="opções " name="Opções " value="clubess ">
+                            <label for="opções"> Beach Clubs </label>
+                            <input type="checkbox" id="opções " name="Opções " value="Empregos ">
+                            <label for="opções"> Empresgos </label>
+                            <input type="checkbox" id="opções " name="Opções " value="Museus ">
+                            <label for="opções"> Museus </label>
+                            <input type="checkbox" id="opções " name="Opções " value="Boates ">
+                            <label for="opções"> Boates </label>
+                            <input type="checkbox" id="opções " name="Opções " value="Universidades ">
+                            <label for="opções"> Universidades </label>
+                        </div>
+                    </fieldset>
+
+                    <div class="botoes">
+                        <button class="limpar" type="reset"> Limpar</button>
+                        <button class="enviar" type="submit"> Enviar</button>
+                    </div>
+
+            </fieldset>
+
+        </form>
+
     </main>
 
 
-
-
-
-
     <footer id="rodape">
-        <a href="https://www.instagram.com/prefflorianopolis/" target="_blank">
-            <img class="insta" src="../checkpoint2/Img/instagram.jpg" alt="Insta">
+        <a href="https://www.instagram.com/prefflorianopolis/ " target="_blank ">
+            <img class="insta " src="../checkpoint2/Img/instagram.jpg " alt="Insta ">
         </a>
 
-        <a href="https://www.youtube.com/c/PrefeituradeFlorian%C3%B3polis1" target="_blank">
-            <img class="youtube" src="../checkpoint2/Img/youtube.png" alt="Youtube">
+        <a href="https://www.youtube.com/c/PrefeituradeFlorian%C3%B3polis1 " target="_blank ">
+            <img class="youtube " src="../checkpoint2/Img/youtube.png " alt="Youtube ">
         </a>
 
-        <a href="https://www.facebook.com/prefeituradeflorianopolis" target="_blank">
-            <img class="facebook" src="../checkpoint2/Img/facebook.png" alt="Facebook">
+        <a href="https://www.facebook.com/prefeituradeflorianopolis " target="_blank ">
+            <img class="facebook " src="../checkpoint2/Img/facebook.png " alt="Facebook ">
         </a>
 
     </footer>

@@ -1,11 +1,13 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Special+Elite&display=swap');
-* {
-    padding: 0px;
-    margin: 0px;
-}
-
 body {
     background-color: rgb(12, 32, 143);
     background-repeat: no-repeat;
@@ -14,7 +16,7 @@ body {
 }
 
 .foto {
-    height: 1400px;
+    height: 1800px;
     background-image: url("../Img/ponte.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -32,6 +34,19 @@ h1 {
     border-block-start-color: black;
     font-family: 'Merriweather', sans-serif;
     font-size: 40px;
+    animation: pisca 1s infinite;
+}
+
+@keyframes pisca {
+    0% {
+        opacity: 40%;
+    }
+    50% {
+        opacity: 70%;
+    }
+    100% {
+        opacity: 100%;
+    }
 }
 
 .resumo {
@@ -72,6 +87,10 @@ h2 {
     left: 500px;
 }
 
+.curiosidade :hover {
+    background-color: rgba(17, 86, 88, 0.9);
+}
+
 li {
     list-style: none;
     text-align: center;
@@ -79,29 +98,166 @@ li {
 
 #rodape {
     position: absolute;
-    top: 1450px;
+    text-align: center;
+    bottom: -155%;
 }
 
 .insta {
-    position: absolute;
-    height: 40%;
-    width: 10%;
+    height: 3%;
+    width: 3%;
     left: 640px;
     border-radius: 30%;
+    margin-right: 2%;
 }
 
 .youtube {
-    position: absolute;
-    height: 10%;
-    width: 10%;
+    height: 3%;
+    width: 3%;
     left: 740px;
     border-radius: 30%;
+    margin-right: 2%;
 }
 
 .facebook {
-    position: absolute;
-    height: 10%;
-    width: 10%;
+    height: 3%;
+    width: 3%;
     left: 830px;
     border-radius: 30%;
+}
+
+#formulario {
+    text-align: left;
+    position: absolute;
+    bottom: -130%;
+    background-color: rgba(17, 86, 88, 0.4);
+    margin-left: 29%;
+    height: 60vh;
+    display: inline-flex;
+    width: 45%
+}
+
+.form1 {
+    border: darkblue 4px solid;
+    width: 100%;
+    height: 60vh;
+    color: beige;
+    padding: 0% 2%;
+}
+
+.nome {
+    width: 80%;
+    height: 20px;
+    margin-left: 2.3%;
+}
+
+input[type=text]:hover,
+textarea:hover {
+    background: #ffffff;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+input[type=email]:hover,
+textarea:hover {
+    background: #ffffff;
+    border: 1px solid black;
+    font-size: 20px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+input[type=number]:hover,
+textarea:hover {
+    background: #ffffff;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: chartreuse;
+    padding: 15px;
+}
+
+input[type=date]:hover,
+textarea:hover {
+    background: #ffffff;
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: chartreuse;
+    padding: 20px;
+}
+
+#email {
+    width: 80%;
+    height: 20px;
+    margin-top: 3%;
+    margin-left: 1.2%;
+}
+
+#fone {
+    width: 200px;
+    height: 20px;
+    margin-top: 3%;
+    margin-left: .1%;
+}
+
+#dn {
+    width: 170px;
+    height: 20px;
+    margin-top: 3%;
+    margin-left: .1%;
+}
+
+.maioridade {
+    width: 32%;
+    height: 70px;
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: .1%;
+    border: black 2px solid;
+    text-align: center;
+    padding: 1%;
+}
+
+.maior {
+    margin-right: 20px;
+}
+
+.sel1 {
+    margin-top: -3%;
+}
+
+.interesses {
+    margin-left: 40%;
+    margin-right: 2%;
+    margin-top: -3%;
+    border: black 2px solid;
+    padding: 3px;
+}
+
+.maioridade :hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+.interesses :hover {
+    background-color: chartreuse;
+    color: black;
+}
+
+.botoes {
+    width: 40%;
+    height: 70px;
+    text-align: center;
+    margin-left: 31%;
+    padding: 1%;
+    margin-top: 7%;
+}
+
+.limpar {
+    font-size: 25px;
+    margin-right: 35%;
+}
+
+.enviar {
+    font-size: 25px;
 }
