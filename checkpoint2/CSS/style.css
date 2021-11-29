@@ -184,6 +184,7 @@ textarea:hover {
     font-size: 15px;
     background-color: chartreuse;
     padding: 20px;
+    width: 200px;
 }
 
 #email {
@@ -245,19 +246,25 @@ textarea:hover {
 }
 
 .botoes {
-    width: 40%;
-    height: 70px;
+    width: 43%;
+    height: 80px;
     text-align: center;
-    margin-left: 31%;
+    margin-left: 27%;
     padding: 1%;
     margin-top: 7%;
+}
+
+.botoes :hover {
+    background-color: blue;
 }
 
 .limpar {
     font-size: 25px;
     margin-right: 35%;
+    padding: 5px;
 }
 
 .enviar {
     font-size: 25px;
+    padding: 5px;
 }
