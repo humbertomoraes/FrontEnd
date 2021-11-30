@@ -64,12 +64,15 @@ iframe {
     position: absolute;
     top: 240px;
     text-align: center;
+    margin-left: 7.5%;
 }
 
 .ponte {
     color: white;
-    background-color: #e6bd09;
+    background-color: #ada30f;
     padding: 0px;
+    margin-left: 2%;
+    font-size: 125%;
 }
 
 h2 {
@@ -260,4 +263,9 @@ input[type=date]:hover {
 .enviar {
     font-size: 25px;
     padding: 5px;
+}
+
+.alunos li {
+    text-align: left;
+    margin-left: 2%;
 }
