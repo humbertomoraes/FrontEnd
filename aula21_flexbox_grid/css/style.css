@@ -1,0 +1,38 @@
+.gridContainer {
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50px 1fr;
+    grid-template-areas: "header header" "main aside";
+    gap: 20px 10px;
+}
+
+.gridItem {
+    border: 1px solid;
+}
+
+.header {
+    grid-area: header;
+}
+
+.main {
+    grid-area: main;
+}
+
+.aside {
+    grid-area: aside;
+    display: flex;
+    flex-direction: column;
+}
+
+.video {
+    background-color: grey;
+    width: 100%;
+    height: 80%;
+}
+
+.flex-item {
+    display: flex;
+    flex-direction: row;
+}
