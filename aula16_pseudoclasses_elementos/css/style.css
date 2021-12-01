@@ -1,0 +1,37 @@
+.nome {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.nome:hover {
+    padding: 10px;
+    background-color: tomato;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.email {
+    width: 500px;
+    margin-bottom: 10px;
+}
+
+.fone {
+    width: 200px;
+}
+
+.fone:focus {
+    background-color: skyblue;
+}
+
+p::first-letter {
+    color: seagreen;
+    font-size: 220%;
+}
+
+p::before {
+    content: "Teste acrescentar texto no início";
+}
+
+p::after {
+    content: "teste acrescentar texto ao final";
+}

@@ -6,12 +6,12 @@
 }
 
 body {
-    background-size: ;
-    background-image: "http://jornalocal.com.br/classificados/wp-content/uploads/2014/10/doces-e-salgados.jpg";
+    width: 100%;
+    height: 100vh;
 }
 
 .cabeçalho {
-    background-color: rgb(105, 125, 238);
+    background-color: orangered;
     margin-left: 0;
 }
 
@@ -19,7 +19,7 @@ body {
     height: 10%;
     width: 10%;
     float: left;
-    margin-left: 30%;
+    margin-left: 34%;
     padding: 15px;
     border-radius: 35%;
 }
@@ -31,22 +31,44 @@ body {
 .formu {
     text-align: center;
     padding: 3%;
+    background-color: rgba(221, 160, 211, 0.4);
+    width: 58%;
+    height: 10vh;
+    margin-left: 20.8%;
 }
 
-div {
-    margin-left: 20%;
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.sabornamesa.com.br/media/k2/items/cache/8212207f146778f83156ffc204ca380c_XL.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .form1 {
-    border: darkblue 2px solid;
-    width: 50%;
+    border: rgb(235, 8, 8) 4px solid;
     margin-left: 25%;
     padding: 1%;
+    width: 50%;
+    height: 50vh;
+    background-color: rgba(221, 160, 211, 0.5);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 .nome {
     width: 300px;
     height: 20px;
+}
+
+input:focus {
+    background-color: rgba(252, 50, 50, 0.7);
+}
+
+input:valid {
+    background-color: turquoise;
 }
 
 .representante {
@@ -71,7 +93,17 @@ div {
 }
 
 .sel1 {
-    margin-left: -10%;
+    margin-left: 5%;
+}
+
+.produtos {
+    border: purple 4px solid;
+    width: 50%;
+    margin-bottom: 1%;
+    margin-left: 23%;
+    color: rgb(107, 6, 6);
+    font-size: 20px;
+    text-align: center;
 }
 
 .sel2 {
