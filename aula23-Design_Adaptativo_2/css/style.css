@@ -1,0 +1,72 @@
+* {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+html {
+    font-size: 16px;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    background-color: bisque;
+    text-align: center;
+    padding: 1%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.texto1 h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.texto1 p {
+    font-size: 0.75rem;
+    border: blue 2px solid;
+    text-align: justify;
+    padding: 5px;
+}
+
+.texto2 h1 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.texto2 p {
+    font-size: 0.75rem;
+    border: blue 2px solid;
+    text-align: justify;
+    padding: 5px;
+}
+
+.fundo {
+    display: block;
+    width: 100vw;
+    height: 1%;
+}
+
+.produtos {
+    background-color: black;
+    color: white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    gap: 10px;
+}
