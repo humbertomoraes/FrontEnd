@@ -6,7 +6,127 @@
           box-sizing: border-box;
 }
 
-.navbar {
+.html {
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+header {
+  width: 100vw;
+  height: 15vh;
+  position: fixed;
   background-color: aqua;
+  padding: 1% 5%;
+  border: 4px black solid;
+}
+
+header #home {
+  font-size: 20px;
+  color: red;
+  font-weight: bold;
+}
+
+header li {
+  border-radius: 10%;
+  border: rosybrown;
+}
+
+header li :hover {
+  background-color: rosybrown;
+  font-size: 1.2rem;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.banner {
+  width: 100vw;
+  height: auto;
+  background-color: #f79df2;
+  border: blueviolet 5px solid;
+  text-align: left;
+  padding: 40% 0 40% 30%;
+}
+
+.banner .explorar {
+  width: 10vw;
+  background-color: #f79df2;
+  border: red 2px solid;
+  border-radius: 10px;
+  margin-left: 15vw;
+}
+
+main {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 1%;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+main h1 {
+  width: 15vw;
+  height: 8vh;
+  border: orange 2px solid;
+  background-color: orangered;
+  border-radius: 10px;
+  text-align: center;
+  display: -ms-grid;
+  display: grid;
+}
+
+main img {
+  width: 30vw;
+  height: 50vh;
+}
+
+main p {
+  width: 30vw;
+  height: 5vh;
+}
+
+footer {
+  background-color: black;
+  width: 100vw;
+  height: 20vh;
+}
+
+.alunos {
+  text-align: center;
+  width: 100vw;
+  font-size: 1.3rem;
+  color: white;
+}
+
+.alunos li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  display: inline;
+  text-align: center;
+  margin: 0 5%;
+}
+
+.alunos p {
+  margin-top: 3%;
+}
+
+.alunos img {
+  height: 2%;
+  width: 2%;
+  left: 640px;
+  border-radius: 30%;
 }
 /*# sourceMappingURL=style.css.map */

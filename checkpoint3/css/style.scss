@@ -5,6 +5,104 @@
     box-sizing: border-box;
 }
 
-.navbar {
+.html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+header {
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
     background-color: aqua;
+    padding: 1% 5%;
+    border: 4px black solid;
+    #home {
+        font-size: 20px;
+        color: red;
+        font-weight: bold
+    }
+    li {
+        border-radius: 10%;
+        border: rosybrown;
+    }
+    li :hover {
+        background-color: rosybrown;
+        font-size: 1.2rem;
+        transition: 1s;
+    }
+}
+
+.banner {
+    width: 100vw;
+    height: auto;
+    background-color: rgb(247, 157, 242);
+    border: blueviolet 5px solid;
+    text-align: left;
+    padding: 40% 0 40% 30%;
+    .explorar {
+        width: 10vw;
+        background-color: rgb(247, 157, 242);
+        border: red 2px solid;
+        border-radius: 10px;
+        margin-left: 15vw;
+    }
+}
+
+main {
+    justify-content: center;
+    display: flex;
+    gap: 1%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    h1 {
+        width: 15vw;
+        height: 8vh;
+        border: orange 2px solid;
+        background-color: orangered;
+        border-radius: 10px;
+        text-align: center;
+        display: grid;
+    }
+    img {
+        width: 30vw;
+        height: 50vh;
+    }
+    p {
+        width: 30vw;
+        height: 5vh;
+    }
+}
+
+footer {
+    background-color: black;
+    width: 100vw;
+    height: 20vh;
+}
+
+.alunos {
+    text-align: center;
+    width: 100vw;
+    font-size: 1.3rem;
+    color: white;
+    li {
+        display: flex;
+        list-style: none;
+        display: inline;
+        text-align: center;
+        margin: 0 5%;
+    }
+    p {
+        margin-top: 3%;
+    }
+    img {
+        height: 2%;
+        width: 2%;
+        left: 640px;
+        border-radius: 30%;
+    }
 }
