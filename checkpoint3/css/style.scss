@@ -45,10 +45,10 @@ header {
     background-size: cover;
     border: blueviolet 5px solid;
     text-align: left;
-    padding: 40% 0 40% 26%;
+    padding: 20% 0 20% 25%;
     .bannerTexto {
         text-align: center;
-        background-color: rgba(226, 43, 211, 0.4);
+        background-color: rgba(226, 43, 211, 0.5);
         border: rgb(248, 67, 248) 5px solid;
         border-radius: 10px;
         width: 48vw;
@@ -67,6 +67,10 @@ main {
     gap: 1%;
     flex-direction: row;
     flex-wrap: wrap;
+    .itens {
+        margin-left: 30%;
+        margin-right: 30%;
+    }
     h1 {
         width: 15vw;
         height: 8vh;

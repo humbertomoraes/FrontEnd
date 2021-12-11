@@ -50,12 +50,12 @@ header li :hover {
   background-size: cover;
   border: blueviolet 5px solid;
   text-align: left;
-  padding: 40% 0 40% 26%;
+  padding: 20% 0 20% 25%;
 }
 
 .banner .bannerTexto {
   text-align: center;
-  background-color: rgba(226, 43, 211, 0.4);
+  background-color: rgba(226, 43, 211, 0.5);
   border: #f843f8 5px solid;
   border-radius: 10px;
   width: 48vw;
@@ -82,6 +82,11 @@ main {
           flex-direction: row;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+main .itens {
+  margin-left: 30%;
+  margin-right: 30%;
 }
 
 main h1 {
