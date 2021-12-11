@@ -19,7 +19,7 @@ header {
   width: 100vw;
   height: 15vh;
   position: fixed;
-  background-color: aqua;
+  background-color: #f79df2;
   padding: 1% 5%;
   border: 4px black solid;
 }
@@ -45,7 +45,9 @@ header li :hover {
 .banner {
   width: 100vw;
   height: auto;
-  background-color: #f79df2;
+  background-image: url(https://www.zankyou.com.br/images/mag-card-c/418/ca9b/878/623/-/br/wp-content/uploads/2018/08/main-image-3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
   border: blueviolet 5px solid;
   text-align: left;
   padding: 40% 0 40% 30%;
