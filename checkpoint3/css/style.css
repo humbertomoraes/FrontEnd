@@ -50,7 +50,15 @@ header li :hover {
   background-size: cover;
   border: blueviolet 5px solid;
   text-align: left;
-  padding: 40% 0 40% 30%;
+  padding: 40% 0 40% 26%;
+}
+
+.banner .bannerTexto {
+  text-align: center;
+  background-color: rgba(226, 43, 211, 0.4);
+  border: #f843f8 5px solid;
+  border-radius: 10px;
+  width: 48vw;
 }
 
 .banner .explorar {
@@ -58,7 +66,6 @@ header li :hover {
   background-color: #f79df2;
   border: red 2px solid;
   border-radius: 10px;
-  margin-left: 15vw;
 }
 
 main {
