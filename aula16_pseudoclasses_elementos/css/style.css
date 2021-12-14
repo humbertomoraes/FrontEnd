@@ -15,6 +15,10 @@
     margin-bottom: 10px;
 }
 
+.email:disabled {
+    background-color: blueviolet;
+}
+
 .fone {
     width: 200px;
 }
@@ -30,8 +34,16 @@ p::first-letter {
 
 p::before {
     content: "Teste acrescentar texto no início";
+    color: cornflowerblue;
 }
 
 p::after {
     content: "teste acrescentar texto ao final";
+    color: crimson;
+    font-size: 180%;
+}
+
+.itens li:nth-child(2) {
+    font-size: 150%;
+    color: crimson;
 }
