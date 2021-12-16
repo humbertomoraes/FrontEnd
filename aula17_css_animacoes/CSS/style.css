@@ -1,6 +1,7 @@
-.bola{
+.bola {
     background-color: rgb(117, 198, 245);
-    height: 150px; /*altura*/
+    height: 150px;
+    /*altura*/
     width: 150px;
     position: absolute;
     left: 0px;
@@ -9,9 +10,43 @@
     animation: fantasma 3s infinite;
 }
 
-@keyframes fantasma{
-    0% {opacity: 0%;}
-    50%{opacity: 50%; }
-    100%{opacity: 100%;transform: translatex(400px)}
+@keyframes fantasma {
+    0% {
+        opacity: 0%;
+    }
+    50% {
+        opacity: 50%;
+    }
+    100% {
+        opacity: 100%;
+        transform: translatex(400px)
+    }
 }
 
+.quadrado {
+    background-color: red;
+    height: 150px;
+    /*altura*/
+    width: 150px;
+    margin-top: 12%;
+    transition-duration: 1.5s;
+}
+
+.quadrado:hover {
+    background-color: royalblue;
+    font-size: 150%;
+    color: skyblue;
+}
+
+.scale {
+    width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    background-color: springgreen;
+}
+
+.scale:hover {
+    margin-left: 10%;
+    transform: scale(2);
+    transform: rotate(100deg);
+}
