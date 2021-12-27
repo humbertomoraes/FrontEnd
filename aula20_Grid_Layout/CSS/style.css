@@ -17,21 +17,21 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 20% 1fr;
-    grid-template-rows: 10% 1fr 10%;
+    grid-template-rows: 15% 1fr 10%;
     grid-template-areas: "header header" "aside main" "footer footer";
     gap: 10px
 }
 
 .bandeira {
     float: left;
-    margin: 1% 2% 0% 30%;
+    margin: 1.5% 1.5% 0% 30%;
     height: 10%;
     width: 6%;
 }
 
 .cabeçalho {
     float: left;
-    margin-top: 1%;
+    margin-top: 1.5%;
 }
 
 .header {
@@ -74,29 +74,31 @@ p {
     text-align: justify;
     margin-left: 15%;
     margin-right: 15%;
+    margin-top: 1%;
 }
 
 footer {
     grid-area: footer;
     text-align: center;
+    margin-top: 1%;
 }
 
 .facebook {
-    height: 39.5%;
+    height: 90%;
     width: 4.4%;
     border-radius: 30%;
-    margin: 0 1%;
+    margin: 0 1% 0 2.5%;
 }
 
 .insta {
-    height: 40%;
+    height: 90%;
     width: 4.5%;
     border-radius: 30%;
     margin: 0 1%;
 }
 
 .tube {
-    height: 40%;
+    height: 90%;
     width: 4.5%;
     border-radius: 30%;
     margin: 0 1%;
