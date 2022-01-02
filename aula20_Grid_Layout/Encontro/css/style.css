@@ -7,7 +7,7 @@
 
 body {
     display: grid;
-    grid-template-columns: 80% 1fr;
+    grid-template-columns: 70% 1fr;
     grid-template-rows: 15% 1fr;
     grid-template-areas: "header header" "video1 videos";
 }
@@ -18,8 +18,18 @@ body {
     grid-area: video1;
 }
 
+.num1 {
+    width: 65%;
+    height: 60%;
+}
+
 .videos {
-    width: 20vw;
-    height: 20vh;
-    grid-area: video1;
+    grid-area: videos;
+    display: flex;
+    flex-direction: row;
+}
+
+.img1 {
+    width: 40%;
+    height: 50%;
 }
